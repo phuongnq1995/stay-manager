@@ -24,10 +24,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <nav>
+        <a href="/roles">Roles</a>
+        <a href="/users">Users</a>
+      </nav>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+
+    31	        <nav>
+    32	          <a href="/roles">Roles</a>
+    33	          <a href="/users">Users</a>
+    34	        </nav>
+
+
+        <nav>
+          <a href="/roles">Roles</a>
+          <a href="/users">Users</a>
+        </nav>
       </body>
     </html>
   );
